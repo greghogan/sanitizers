@@ -13,3 +13,4 @@ set(CMAKE_BUILD_TYPE "Debug" CACHE STRING "" FORCE)
 message(STATUS "!!! Forcing compilation with build type: ${CMAKE_BUILD_TYPE}")
 
 add_subdirectory(address_sanitizer)
+add_subdirectory(memory)
